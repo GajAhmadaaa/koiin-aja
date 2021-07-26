@@ -71,5 +71,5 @@ app.post("/", (req, res)=>{
 });
 
 app.listen(PORT, function(){
-    console.log("server is running on 3000");
+    console.log("server is running on ${PORT}");
 })
